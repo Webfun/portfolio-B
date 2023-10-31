@@ -13,16 +13,17 @@
             <div class="animation-preloader">
               <div class="spinner"></div>
               <div class="txt-loading">
-                <span data-text-preloader="A" class="letters-loading">A</span>
-                <span data-text-preloader="L" class="letters-loading">L</span>
+                <span data-text-preloader="P" class="letters-loading">P</span>
+                <span data-text-preloader="o" class="letters-loading">o</span>
+                <span data-text-preloader="r" class="letters-loading">r</span>
+                <span data-text-preloader="t" class="letters-loading">t</span>
+                <span data-text-preloader="f" class="letters-loading">f</span>
+                <span data-text-preloader="o" class="letters-loading">o</span>
+                <span data-text-preloader="l" class="letters-loading">l</span>
+                <span data-text-preloader="i" class="letters-loading">i</span>
+                <span data-text-preloader="o" class="letters-loading">o</span>
                 <span data-text-preloader="-" class="letters-loading">-</span>
-                <span data-text-preloader="Y" class="letters-loading">Y</span>
-                <span data-text-preloader="A" class="letters-loading">A</span>
-                <span data-text-preloader="S" class="letters-loading">S</span>
-                <span data-text-preloader="M" class="letters-loading">M</span>
-                <span data-text-preloader="E" class="letters-loading">E</span>
-                <span data-text-preloader="E" class="letters-loading">E</span>
-                <span data-text-preloader="N" class="letters-loading">N</span>
+                <span data-text-preloader="B" class="letters-loading">B</span>
               </div>
             </div>
             <div class="loader-section section-left"></div>

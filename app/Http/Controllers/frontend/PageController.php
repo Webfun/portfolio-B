@@ -20,4 +20,12 @@ class PageController extends Controller
     {
         return view('frontend.contact');
     }
+    public function services()
+    {
+        return view('frontend.services');
+    }
+    public function project()
+    {
+        return view('frontend.project');
+    }
 }

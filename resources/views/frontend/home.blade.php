@@ -6,7 +6,7 @@
 <section class="home_banner_02">
     <div class="home-carousel owl-theme owl-carousel">
       <div class="slide-item">
-        <div class="image-layer" data-background="images/bg/15.jpg"></div>
+        <div class="image-layer" data-background="{{asset('frontend/images/bg/15.jpg')}}"></div>
         <div class="auto-container">
           <div class="row clearfix">
             <div class="col-xl-8 col-lg-12 col-md-12 content-column">
@@ -22,7 +22,7 @@
         </div>
       </div>
       <div class="slide-item">
-        <div class="image-layer" data-background="images/bg/12.jpg"></div>
+        <div class="image-layer" data-background="{{asset('frontend/images/bg/12.jpg')}}"></div>
         <div class="auto-container">
           <div class="row clearfix">
             <div class="col-xl-8 col-lg-12 col-md-12 content-column">
@@ -38,7 +38,7 @@
         </div>
       </div>
       <div class="slide-item">
-        <div class="image-layer" data-background="images/bg/16.jpg"></div>
+        <div class="image-layer" data-background="{{asset('frontend/images/bg/16.jpg')}}"></div>
         <div class="auto-container">
           <div class="row clearfix">
             <div class="col-xl-8 col-lg-12 col-md-12 content-column">
@@ -57,7 +57,7 @@
   </section>
   <!-- Home Slider End -->
   <!-- Service Section Area Start -->
-  <section class="service-section-style2 bg-no-repeat bg-cover bg-pos-cb pdt-105 pdb-110 pdb-lg-105" data-background="images/bg/abs-bg8.png">
+  <section class="service-section-style2 bg-no-repeat bg-cover bg-pos-cb pdt-105 pdb-110 pdb-lg-105" data-background="{{ asset('frontend/images/bg/abs-bg8.png')}}">
     <div class="section-title text-center wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
       <div class="container">
         <div class="row justify-content-center">
@@ -76,7 +76,7 @@
           <div class="col-md-6 col-lg-6 col-xl-4">
             <div class="service-style2">
               <div class="service-item-thumb">
-                <img class="img-full" src="images/service/service_01.jpg" alt="" />
+                <img class="img-full" src="{{ asset('frontend/images/service/service_01.jpg')}}" alt="" />
                 <div class="service-item-icon">
                   <i class="webextheme-icon-measure"></i>
                 </div>
@@ -93,7 +93,7 @@
           <div class="col-md-6 col-lg-6 col-xl-4">
             <div class="service-style2">
               <div class="service-item-thumb">
-                <img class="img-full" src="images/service/service_04.jpg" alt="" />
+                <img class="img-full" src="{{ asset('frontend/images/service/service_04.jpg')}}" alt="" />
                 <div class="service-item-icon">
                   <i class="webextheme-icon-stairs"></i>
                 </div>
@@ -110,7 +110,7 @@
           <div class="col-md-6 col-lg-6 col-xl-4">
             <div class="service-style2">
               <div class="service-item-thumb">
-                <img class="img-full" src="images/service/service_05.jpg" alt="" />
+                <img class="img-full" src="{{ asset('frontend/images/service/service_05.jpg')}}" alt="" />
                 <div class="service-item-icon">
                   <i class="webextheme-icon-kitchen"></i>
                 </div>
@@ -166,7 +166,7 @@
             <div class="col-xl-6 col-lg-6 col-md-6">
               <div class="about-person mrb-sm-50">
                 <div class="about-person-img">
-                  <img src="images/about/about-person-img1.jpg" alt="" />
+                  <img src="{{asset ('frontend/images/about/about-person-img1.jpg')}}" alt="" />
                 </div>
                 <div class="about-person-content">
                   <h5 class="about-person-name">David Smith</h5>
@@ -181,8 +181,8 @@
         </div>
         <div class="col-md-12 col-lg-8 col-xl-6 wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
           <div class="about-image-box-style2 dot-circle">
-            <img class="about-image1 img-full js-tilt d-none d-md-block d-lg-block d-xl-block" src="images/about/about-sm4.jpg" alt="" />
-            <img class="about-image2 img-full" src="images/about/about-lg3.jpg" alt="" />
+            <img class="about-image1 img-full js-tilt d-none d-md-block d-lg-block d-xl-block" src="{{asset('frontend/images/about/about-sm4.jpg')}}" alt="" />
+            <img class="about-image2 img-full" src="{{asset('frontend/images/about/about-lg3.jpg')}}" alt="" />
             <div class="call-us-now">
               <h3 class="number mrt-0 text-white">25+</h3>
               <p class="call-us-title mrb-0 text-white">Years Of Experiences</p>
@@ -194,7 +194,7 @@
   </section>
   <!-- About Section End -->
   <!-- Offer Section Start -->
-  <section class="bg-secondary-color bg-no-repeat bg-cover bg-pos-cb pdt-110 pdb-85" data-background="images/bg/abs-bg4.png" data-overlay-dark="4">
+  <section class="bg-secondary-color bg-no-repeat bg-cover bg-pos-cb pdt-110 pdb-85" data-background="{{ asset('frontend/images/bg/abs-bg4.png')}}" data-overlay-dark="4">
     <div class="section-content">
       <div class="container">
         <div class="row">
@@ -212,7 +212,7 @@
           </div>
           <div class="col-md-12 col-lg-10 col-xl-6 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="800ms">
             <div class="shine-effect">
-              <img class="img-full" src="images/about/divider-img1.jpg" alt="" />
+              <img class="img-full" src="{{ asset('frontend/images/about/divider-img1.jpg')}}" alt="" />
             </div>
           </div>
         </div>
@@ -286,7 +286,7 @@
   <section>
     <div class="container-fluid">
       <div class="row">
-        <div class="col-lg-12 col-xl-6 bg-cover" data-background="images/bg/12.jpg"></div>
+        <div class="col-lg-12 col-xl-6 bg-cover" data-background="{{ asset('frontend/images/bg/12.jpg')}}"></div>
         <div class="col-lg-12 col-xl-6 p-0">
           <div class="divider-gap bg-silver-light">
             <h2 class="mrb-25">Why You Choose Us?</h2>
@@ -325,7 +325,7 @@
   </section>
   <!-- why Choose Us Section End -->
   <!-- Testimonials Section Start -->
-  <section class="testimonial-style2-section pdt-105 pdb-110 bg-no-repeat bg-cover bg-pos-cb" data-background="images/bg/abs-bg7.png">
+  <section class="testimonial-style2-section pdt-105 pdb-110 bg-no-repeat bg-cover bg-pos-cb" data-background="{{ asset('frontend/images/bg/abs-bg7.png')}}">
     <div class="section-title text-center wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
       <div class="container">
         <div class="row justify-content-center">
@@ -344,7 +344,7 @@
           <div class="owl-carousel testmonial_3col testimonial-style2 text-left">
             <div class="testimonial-item">
               <div class="testimonial-thumb">
-                <img src="images/testimonials/testimonial-img1.jpg" alt="" />
+                <img src="{{ asset('frontend/images/testimonials/testimonial-img1.jpg')}}" alt="" />
               </div>
               <div class="testimonial-content">
                 <p class="comments">Lorem ipsum dolor sit amet, consectetur adipisicing elit oluptatibus blanditiis amet optio fugiat nisi est repellendus iusto quis harum laboriosam nostrum unde distinctio</p>
@@ -354,7 +354,7 @@
             </div>
             <div class="testimonial-item">
               <div class="testimonial-thumb">
-                <img src="images/testimonials/testimonial-img3.jpg" alt="" />
+                <img src="{{ asset('frontend/images/testimonials/testimonial-img3.jpg')}}" alt="" />
               </div>
               <div class="testimonial-content">
                 <p class="comments">Lorem ipsum dolor sit amet, consectetur adipisicing elit oluptatibus blanditiis amet optio fugiat nisi est repellendus iusto quis harum laboriosam nostrum unde distinctio</p>
@@ -364,7 +364,7 @@
             </div>
             <div class="testimonial-item">
               <div class="testimonial-thumb">
-                <img src="images/testimonials/testimonial-img2.jpg" alt="" />
+                <img src="{{ asset('frontend/images/testimonials/testimonial-img2.jpg')}}" alt="" />
               </div>
               <div class="testimonial-content">
                 <p class="comments">Lorem ipsum dolor sit amet, consectetur adipisicing elit oluptatibus blanditiis amet optio fugiat nisi est repellendus iusto quis harum laboriosam nostrum unde distinctio</p>
@@ -379,29 +379,29 @@
   </section>
   <!-- Testimonials Section End -->
   <!-- Clients Section Area Start -->
-  <section class="clients-section pdt-85 pdb-160 pdb-lg-90 bg-pos-cc img-lum1" data-background="images/bg/16.jpg" data-overlay-dark="9">
+  <section class="clients-section pdt-85 pdb-160 pdb-lg-90 bg-pos-cc img-lum1" data-background="{{('frontend/images/bg/16.jpg')}}" data-overlay-dark="9">
     <div class="section-content">
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
             <div class="owl-carousel client-items client_box_shadow opacity_1">
               <div class="client-item">
-                <img src="images/clients/client_01_white.svg" alt="" />
+                <img src="{{ asset('frontend/images/clients/client_01_white.svg')}}" alt="" />
               </div>
               <div class="client-item">
-                <img src="images/clients/client_02_white.svg" alt="" />
+                <img src="{{ asset('frontend/images/clients/client_02_white.svg')}}" alt="" />
               </div>
               <div class="client-item">
-                <img src="images/clients/client_03_white.svg" alt="" />
+                <img src="{{ asset('frontend/images/clients/client_03_white.svg')}}" alt="" />
               </div>
               <div class="client-item">
-                <img src="images/clients/client_04_white.svg" alt="" />
+                <img src="{{ asset('frontend/images/clients/client_04_white.svg')}}" alt="" />
               </div>
               <div class="client-item">
-                <img src="images/clients/client_05_white.svg" alt="" />
+                <img src="{{ asset('frontend/images/clients/client_05_white.svg')}}" alt="" />
               </div>
               <div class="client-item">
-                <img src="images/clients/client_06_white.svg" alt="" />
+                <img src="{{ asset('frontend/images/clients/client_06_white.svg')}}" alt="" />
               </div>
             </div>
           </div>
@@ -411,7 +411,7 @@
   </section>
   <!-- Clients Section Area End -->
   <!-- Get a Quote Section Start -->
-  <section class="get-a-quote-section bg-no-repeat bg-cover bg-pos-ct pdt-110 pdb-130 bg-no-repeat bg-cover bg-pos-cb" data-background="images/bg/abs-bg3.png">
+  <section class="get-a-quote-section bg-no-repeat bg-cover bg-pos-ct pdt-110 pdb-130 bg-no-repeat bg-cover bg-pos-cb" data-background="{{ asset('frontend/images/bg/abs-bg3.png')}}">
     <div class="section-title mrb-55 wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
       <div class="container">
         <div class="row align-items-end">
@@ -464,7 +464,7 @@
   </section>
   <!-- Get a Quote Section End -->
   <!-- Project Section Start -->
-  <section class="bg-secondary-color bg-no-repeat bg-cover bg-pos-cb pdt-105" data-background="images/bg/abs-bg3.png" data-overlay-dark="4">
+  <section class="bg-secondary-color bg-no-repeat bg-cover bg-pos-cb pdt-105" data-background="{{ asset('frontend/images/bg/abs-bg3.png')}}" data-overlay-dark="4">
     <div class="section-title mrb-60 mrb-md-15 wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
       <div class="container">
         <div class="row align-items-end">
@@ -491,7 +491,7 @@
               <div class="owl-carousel projects_4col">
                 <div class="project-item-style1">
                   <div class="project-item-thumb">
-                    <img class="img-full" src="images/projects/project_01.jpg" alt="" />
+                    <img class="img-full" src="{{ asset('frontend/images/projects/project_01.jpg')}}" alt="" />
                     <div class="project-item-link-icon">
                       <a href="page-project-details.html"><i class="base-icon-next"></i></a>
                     </div>
@@ -503,7 +503,7 @@
                 </div>
                 <div class="project-item-style1">
                   <div class="project-item-thumb">
-                    <img class="img-full" src="images/projects/project_02.jpg" alt="" />
+                    <img class="img-full" src="{{ asset('frontend/images/projects/project_02.jpg')}}" alt="" />
                     <div class="project-item-link-icon">
                       <a href="page-project-details.html"><i class="base-icon-next"></i></a>
                     </div>
@@ -515,7 +515,7 @@
                 </div>
                 <div class="project-item-style1">
                   <div class="project-item-thumb">
-                    <img class="img-full" src="images/projects/project_03.jpg" alt="" />
+                    <img class="img-full" src="{{ asset('frontend/images/projects/project_03.jpg')}}" alt="" />
                     <div class="project-item-link-icon">
                       <a href="page-project-details.html"><i class="base-icon-next"></i></a>
                     </div>
@@ -527,7 +527,7 @@
                 </div>
                 <div class="project-item-style1">
                   <div class="project-item-thumb">
-                    <img class="img-full" src="images/projects/project_04.jpg" alt="" />
+                    <img class="img-full" src="{{ asset('frontend/images/projects/project_04.jpg')}}" alt="" />
                     <div class="project-item-link-icon">
                       <a href="page-project-details.html"><i class="base-icon-next"></i></a>
                     </div>
@@ -539,7 +539,7 @@
                 </div>
                 <div class="project-item-style1">
                   <div class="project-item-thumb">
-                    <img class="img-full" src="images/projects/project_05.jpg" alt="" />
+                    <img class="img-full" src="{{ asset('frontend/images/projects/project_05.jpg')}}" alt="" />
                     <div class="project-item-link-icon">
                       <a href="page-project-details.html"><i class="base-icon-next"></i></a>
                     </div>
@@ -551,7 +551,7 @@
                 </div>
                 <div class="project-item-style1">
                   <div class="project-item-thumb">
-                    <img class="img-full" src="images/projects/project_06.jpg" alt="" />
+                    <img class="img-full" src="{{ asset('frontend/images/projects/project_06.jpg')}}" alt="" />
                     <div class="project-item-link-icon">
                       <a href="page-project-details.html"><i class="base-icon-next"></i></a>
                     </div>
@@ -570,7 +570,7 @@
   </section>
   <!-- Project Section End -->
   <!-- News Section Start -->
-  <section class="bg-no-repeat bg-cover bg-pos-ct pdt-105 pdb-80" data-background="images/bg/abs-bg9.png">
+  <section class="bg-no-repeat bg-cover bg-pos-ct pdt-105 pdb-80" data-background="{{ asset('frontend/images/bg/abs-bg9.png')}}">
     <div class="section-title mrb-55 wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
       <div class="container">
         <div class="row align-items-center">
@@ -593,7 +593,7 @@
           <div class="col-md-6 col-lg-6 col-xl-4">
             <div class="news-wrapper mrb-30">
               <div class="news-thumb">
-                <img src="images/news/01.jpg" class="img-full" alt="blog" />
+                <img src="{{ asset('frontend/images/news/01.jpg')}}" class="img-full" alt="blog" />
                 <div class="news-top-meta">
                   <span class="entry-category">Interior</span>
                 </div>
@@ -605,7 +605,7 @@
                   <div class="post-author">
                     <div class="author-img">
                       <a href="page-news.html">
-                        <img src="images/testimonials/testimonial-img1.jpg" class="rounded-circle" alt="#" />
+                        <img src="{{asset('frontend/images/testimonials/testimonial-img1.jpg')}}" class="rounded-circle" alt="#" />
                       </a>
                     </div>
                     <span><a href="page-news.html">Admin</a></span>
@@ -620,7 +620,7 @@
           <div class="col-md-6 col-lg-6 col-xl-4">
             <div class="news-wrapper mrb-30 d-block d-xl-flex flex-column flex-sm-column-reverse">
               <div class="news-thumb">
-                <img src="images/news/02.jpg" class="img-full" alt="blog" />
+                <img src="{{ asset('frontend/images/news/02.jpg')}}" class="img-full" alt="blog" />
                 <div class="news-top-meta">
                   <span class="entry-category">Interior</span>
                 </div>
@@ -632,7 +632,7 @@
                   <div class="post-author">
                     <div class="author-img">
                       <a href="page-news.html">
-                        <img src="images/testimonials/testimonial-img2.jpg" class="rounded-circle" alt="#" />
+                        <img src="{{ asset('frontend/images/testimonials/testimonial-img2.jpg')}}" class="rounded-circle" alt="#" />
                       </a>
                     </div>
                     <span><a href="page-news.html">Admin</a></span>
@@ -647,7 +647,7 @@
           <div class="col-md-6 col-lg-6 col-xl-4">
             <div class="news-wrapper mrb-30">
               <div class="news-thumb">
-                <img src="images/news/03.jpg" class="img-full" alt="blog" />
+                <img src="{{ asset('frontend/images/news/03.jpg')}}" class="img-full" alt="blog" />
                 <div class="news-top-meta">
                   <span class="entry-category">Interior</span>
                 </div>
@@ -659,7 +659,7 @@
                   <div class="post-author">
                     <div class="author-img">
                       <a href="page-news.html">
-                        <img src="images/testimonials/testimonial-img3.jpg" class="rounded-circle" alt="#" />
+                        <img src="{{ asset('frontend/images/testimonials/testimonial-img3.jpg')}}" class="rounded-circle" alt="#" />
                       </a>
                     </div>
                     <span><a href="page-news.html">Admin</a></span>
