@@ -3340,6 +3340,7 @@ a {
   width: 100%;
   padding: 0 30px;
   overflow: hidden;
+  margin-left: 60px;
 }
 @media screen and (max-width: 768px) {
   .home_banner_02 .home-carousel .slide-item .auto-container .content-box {
@@ -9167,6 +9168,20 @@ select {
 .mrb-40 {
   margin-bottom: 40px;
 }
+.cons-2{
+  margin-left: 31px;
+}
+.cont-1{
+  margin-left: 31px;
+}
+.create-cont{
+  font-size: 44px;
+  margin-left: 29px;
+}
+.abt-comp{
+  margin-left: 35px;
+}
+
 
 .mrb-45 {
   margin-bottom: 45px;
