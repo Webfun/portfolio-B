@@ -51,7 +51,7 @@
                   <img src="{{ asset('frontend/images/logo-dark.svg') }}" width="165" height="72" alt="logo" />
                 </a>
               </div>
-              <ul class="main-nav-menu">
+              <ul class="main-nav-menu bar-nav ">
                 <li >
                 <a href="index.html">Home</a>
                 
@@ -64,7 +64,7 @@
                   <a href="page-projects.html">Projects</a>
                 </li>
                 <li >
-                  <a href="page-news.html">About</a>
+                  <a href="page-news.html">About Us</a>
                  
                 </li>
               

@@ -11,187 +11,119 @@
           <div class="row clearfix">
             <div class="col-xl-8 col-lg-12 col-md-12 content-column">
               <div class="content-box">
-                <h1 class="home-carousel-title">Unique <span class="text-primary-color">Exterior</span> <span class="text-obj1">Office design</span></h1>
-                <p class="home-carousel-text">We have almost 20+ years of experience for providing interior & Architectural services solutions</p>
+                <h1 class="home-carousel-title">Transforming  <span class="text-primary-color">Spaces, Enriching</span> <span class="text-obj1">Lives</span></h1>
+                <p class="home-carousel-text">We create places that inspire and genuinely enrich
+lives by giving spaces Life </p>
                 <div class="btn-box">
-                  <a href="page-services-style-01.html" class="animate-btn-style3">Our Services</a>
+                  <a href="page-services-style-01.html" class="animate-btn-style3">GET IN TOUCH</a>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="slide-item">
-        <div class="image-layer" data-background="{{asset('frontend/images/bg/12.jpg')}}"></div>
-        <div class="auto-container">
-          <div class="row clearfix">
-            <div class="col-xl-8 col-lg-12 col-md-12 content-column">
-              <div class="content-box">
-                <h1 class="home-carousel-title">Modern <span class="text-primary-color">Building</span> <span class="text-obj1">Architecture</span></h1>
-                <p class="home-carousel-text">We have almost 20+ years of experience for providing interior & Architectural services solutions</p>
-                <div class="btn-box">
-                  <a href="page-contact-us.html" class="animate-btn-style3">Get In Touch</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="slide-item">
-        <div class="image-layer" data-background="{{asset('frontend/images/bg/16.jpg')}}"></div>
-        <div class="auto-container">
-          <div class="row clearfix">
-            <div class="col-xl-8 col-lg-12 col-md-12 content-column">
-              <div class="content-box">
-                <h1 class="home-carousel-title">World class <span class="text-primary-color">interior</span> <span class="text-obj1">design</span></h1>
-                <p class="home-carousel-text">We have almost 20+ years of experience for providing interior & Architectural services solutions</p>
-                <div class="btn-box">
-                  <a href="page-about.html" class="animate-btn-style3">Read More</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+     
   </section>
   <!-- Home Slider End -->
   <!-- Service Section Area Start -->
-  <section class="service-section-style2 bg-no-repeat bg-cover bg-pos-cb pdt-105 pdb-110 pdb-lg-105" data-background="{{ asset('frontend/images/bg/abs-bg8.png')}}">
-    <div class="section-title text-center wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-xl-8">
-            <div class="title-box-center">
-              <h5 class="sub-title-line-bottom text-primary-color mrb-10">What We're Offering</h5>
-              <h2 class="title">Introduce Our Professional <span class="text-primary-color">Services</span> Area</h2>
+  <section class="feature-work-section pdt-110 pdb-105">
+      <div class="section-content">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-3 col-lg-6 col-md-6">
+              <h5 class="side-line-left text-primary-color mrb-10">Our Works</h5>
+              <h2 class="mrb-45">Our Feature <span class="text-primary-color">Works</span></h2>
+              <a href="page-services-style-01.html" class="animate-btn-style2 mrb-sm-60">All Services</a>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="section-content">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-md-6 col-lg-6 col-xl-4">
-            <div class="service-style2">
-              <div class="service-item-thumb">
-                <img class="img-full" src="{{ asset('frontend/images/service/service_01.jpg')}}" alt="" />
-                <div class="service-item-icon">
-                  <i class="webextheme-icon-measure"></i>
-                </div>
-                <div class="service-item-content">
-                  <h6 class="service-categories">Interior</h6>
-                  <h4 class="service-title"><a href="service-architecture.html">Interior work</a></h4>
-                  <div class="service-item-inner-icon">
-                    <i class="webextheme-icon-measure"></i>
+            <div class="col-xl-3 col-lg-6 col-md-6">
+              <div class="service-style1">
+                <div class="service-inner">
+                  <i class="service-icon webextheme-icon-armchair"></i>
+                  <h4 class="service-title">Laboratory Solutions</h4>
+                  <div class="services-count"></div>
+                  <p class="service-description">We supply a range of products, including safety cabinets, ventilated equipment, modular lab furniture, and more.</p>
+                  <div class="services-link">
+                    <a class="text-btn" href="service-architecture.html">Read More</a>
                   </div>
+                  <div class="service-inner-obj"></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-6 col-md-6">
+              <div class="service-style1">
+                <div class="service-inner">
+                  <i class="service-icon webextheme-icon-kitchen"></i>
+                  <h4 class="service-title">Datacenter Solutions</h4>
+                  <div class="services-count"></div>
+                  <p class="service-description">Explore tailored data center solutions with construction and classification based on design and tier ratings.</p>
+                  <div class="services-link">
+                    <a class="text-btn" href="service-architecture.html">Read More</a>
+                  </div>
+                  <div class="service-inner-obj"></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-6 col-md-6">
+              <div class="service-style1">
+                <div class="service-inner">
+                  <i class="service-icon webextheme-icon-architect"></i>
+                  <h4 class="service-title">Audio-Video Solutions</h4>
+                  <div class="services-count"></div>
+                  <p class="service-description">We promise exceptional entertainment, from Dolby Atmos setups to home theater automation</p>
+                  <div class="services-link">
+                    <a class="text-btn" href="service-architecture.html">Read More</a>
+                  </div>
+                  <div class="service-inner-obj"></div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-md-6 col-lg-6 col-xl-4">
-            <div class="service-style2">
-              <div class="service-item-thumb">
-                <img class="img-full" src="{{ asset('frontend/images/service/service_04.jpg')}}" alt="" />
-                <div class="service-item-icon">
-                  <i class="webextheme-icon-stairs"></i>
-                </div>
-                <div class="service-item-content">
-                  <h6 class="service-categories">Interior</h6>
-                  <h4 class="service-title"><a href="service-architecture.html">Interior work</a></h4>
-                  <div class="service-item-inner-icon">
-                    <i class="webextheme-icon-stairs"></i>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-6 col-xl-4">
-            <div class="service-style2">
-              <div class="service-item-thumb">
-                <img class="img-full" src="{{ asset('frontend/images/service/service_05.jpg')}}" alt="" />
-                <div class="service-item-icon">
-                  <i class="webextheme-icon-kitchen"></i>
-                </div>
-                <div class="service-item-content">
-                  <h6 class="service-categories">Interior</h6>
-                  <h4 class="service-title"><a href="service-architecture.html">Kitchen Interior</a></h4>
-                  <div class="service-item-inner-icon">
-                    <i class="webextheme-icon-kitchen"></i>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row mrt-35">
-          <div class="col-xl-12 text-center">
-            <div class="service-load-more">
-              <h5 class="text">
-                Do You Want To explore more services just <span><a href="page-services-style-02.html" class="text-underline text-primary-color">click here</a></span>
-              </h5>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
   <!-- Service Section Area End -->
   <!-- About Section Start -->
-  <section class="about-section pdb-110">
-    <div class="custom-md-container">
-      <div class="row">
-        <div class="col-md-12 col-lg-10 col-xl-6 wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-          <h5 class="side-line-left text-primary-color mrb-10">About Our Company</h5>
-          <h2 class="mrb-25">Professional Designers for <span class="text-primary-color">Creative</span> Architecture</h2>
-          <p class="mrb-30">Distinctively exploit optimal alignments for intuitive. Quickly coordinate business applications through revolutionary catalysts pretium a in dictumst mollis montes maecenas at sapien condimentum orci ornare</p>
-          <div class="row mrb-40">
-            <div class="col-xl-6 col-lg-6 col-md-6">
-              <ul class="order-list primary-color">
-                <li>business applications through</li>
-                <li>revolutionary catalysts for chang</li>
-                <li>catalysts for chang the Seamlessly</li>
-              </ul>
-            </div>
-            <div class="col-xl-6 col-lg-6 col-md-6">
-              <ul class="order-list primary-color">
-                <li>business applications through</li>
-                <li>procedures whereas processes</li>
-                <li>catalysts for chang the Seamlessly</li>
-              </ul>
+  <section class="about-section pdt-110 pdb-105 bg-no-repeat bg-cover bg-pos-cb" data-background="{{ asset('frontend/images/bg/abs-bg3.png')}}" data-overlay-light="4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-lg-8 col-xl-6 wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+            <div class="about-image-box-style1 about-side-line mrr-60 mrr-lg-0">
+              <figure class="about-image1 js-tilt d-none d-md-block d-lg-block d-xl-block">
+                <img class="img-full" src="{{ asset('frontend/images/about/about-sm1.jpg')}}" alt="" />
+              </figure>
+              <figure class="about-image2">
+                <img class="img-full" src="{{ asset('frontend/images/about/about-lg1.jpg')}}" alt="" />
+              </figure>
             </div>
           </div>
-          <div class="row align-items-center mrb-lg-60 mrb-sm-0">
-            <div class="col-xl-6 col-lg-6 col-md-6">
-              <div class="about-person mrb-sm-50">
-                <div class="about-person-img">
-                  <img src="{{asset ('frontend/images/about/about-person-img1.jpg')}}" alt="" />
+          <div class="col-md-12 col-lg-10 col-xl-6 wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
+            <h5 class="side-line-left subtitle text-primary-color">About Our Company</h5>
+            <h2 class="mrb-45 mrb-lg-35">Creating imaginative designs, turning spaces into art.</h2>
+            <p class="about-text-block mrb-40">Making Exceptional interiors The pursuit of excellence, inventiveness, and specialized solutions fuels our passion. Planning, design, and project management are all included in our comprehensive services. We create functional works of art in all kinds of settings, from hotels to offices, fusing creativity with utility.</p>
+           
+            <div class="row no-gutters">
+              <div class="col-xl-7 col-lg-7 col-md-6 col-sm-6">
+                <div class="featured-icon-box mrb-15">
+                  <div class="featured-icon">
+                    <i class="webexflaticon webextheme-icon-003-staircase"></i>
+                  </div>
+                  <div class="featured-content">
+                    <h4 class="featured-title">Exclusive Design</h4>
+                    <p class="featured-desc">Elevate spaces with exclusive design expertise, creating extraordinary works of art.</p>
+                  </div>
                 </div>
-                <div class="about-person-content">
-                  <h5 class="about-person-name">David Smith</h5>
-                  <p class="about-person-designation">CEO of Company</p>
+                <div class="featured-icon-box mrb-sm-40">
+                  <div class="featured-icon">
+                    <i class="webexflaticon base-icon-158-employee-2"></i>
+                  </div>
+                  <div class="featured-content">
+                    <h4 class="featured-title">Professional Team</h4>
+                    <p class="featured-desc mrb-0">Trust our skilled team for vision-to-reality excellence and innovation.</p>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="col-xl-6 col-lg-6 col-md-6">
-              <a href="page-about.html" class="animate-btn-style2 mrb-sm-60">Read More</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-12 col-lg-8 col-xl-6 wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
-          <div class="about-image-box-style2 dot-circle">
-            <img class="about-image1 img-full js-tilt d-none d-md-block d-lg-block d-xl-block" src="{{asset('frontend/images/about/about-sm4.jpg')}}" alt="" />
-            <img class="about-image2 img-full" src="{{asset('frontend/images/about/about-lg3.jpg')}}" alt="" />
-            <div class="call-us-now">
-              <h3 class="number mrt-0 text-white">25+</h3>
-              <p class="call-us-title mrb-0 text-white">Years Of Experiences</p>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
   <!-- About Section End -->
   <!-- Offer Section Start -->
   <section class="bg-secondary-color bg-no-repeat bg-cover bg-pos-cb pdt-110 pdb-85" data-background="{{ asset('frontend/images/bg/abs-bg4.png')}}" data-overlay-dark="4">
