@@ -8,7 +8,7 @@
           <div class="breadcrumb-area">
             <h2 class="page-title">Contact Us</h2>
             <ul class="breadcrumbs-link">
-              <li><a href="index.html">Home</a></li>
+              <li><a href="{{'/'}}">Home</a></li>
               <li class="active">Contact Us</li>
             </ul>
           </div>

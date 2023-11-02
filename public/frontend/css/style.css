@@ -9160,6 +9160,14 @@ select {
 .mrb-30 {
   margin-bottom: 30px;
 }
+.data-sol{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.fit-sol{
+    display: flex;
+    flex-direction: row-reverse;
+}
 .info-cont{
   font-size: 29px;
 }
@@ -9719,7 +9727,12 @@ select {
 }
 
 .pdb-85 {
-  padding-bottom: 85px;
+  padding-bottom: 0px;
+}
+.fit-out{
+  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 .pdb-90 {

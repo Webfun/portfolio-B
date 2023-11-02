@@ -8,9 +8,25 @@
           <div class="breadcrumb-area">
             <h2 class="page-title">Services</h2>
             <ul class="breadcrumbs-link">
-              <li><a href="index.html">Home</a></li>
+              <li><a href="{{'/services'}}">Home</a></li>
               <li><a href="index.html">Services</a></li>
             </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="bg-secondary-color bg-no-repeat bg-cover bg-pos-cb pdt-110 pdb-85" data-background="{{ asset('frontend/images/bg/abs-bg4.png')}}" data-overlay-dark="4">
+    <div style="" class="section-content">
+      <div class="container">
+        <div class="row fit-sol fit-out">
+          <div class="col-md-12 col-lg-10 col-xl-6 wow fadeInUp" data-wow-delay="0ms" data-wow-duration="800ms">
+            <h2 class="text-white mrb-30 mrb-sm-30">
+                Transform Ordinary Places with
+                Our Fit Out Expertise!
+            </h2>
+            <p class="text-white mrb-40">At Al Yasmeen, we turn rooms into extraordinary spaces,
+                handling every aspect from planning to completion.</p>
           </div>
         </div>
       </div>
@@ -49,7 +65,7 @@
           </div>
           <div class="col-md-12 col-lg-10 col-xl-6 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="800ms">
             <div class="shine-effect">
-              <img class="img-full" src="{{ asset('frontend/images/about/divider-img1.jpg')}}" alt="" />
+              <img style="margin-top: 31px;" class="img-full" src="{{ asset('frontend/images/about/divider-img1.jpg')}}" alt="" />
             </div>
           </div>
         </div>
@@ -69,7 +85,7 @@
           </div>
           <div class="col-md-12 col-lg-10 col-xl-6 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="800ms">
             <div class="shine-effect">
-              <img class="img-full" src="{{ asset('frontend/images/about/divider-img1.jpg')}}" alt="" />
+              <img style="margin-top: 64px;" class="img-full" src="{{ asset('frontend/images/about/divider-img1.jpg')}}" alt="" />
             </div>
           </div>
         </div>
@@ -77,9 +93,9 @@
     </div>
   </section>
   <section class="bg-secondary-color bg-no-repeat bg-cover bg-pos-cb pdt-110 pdb-85" data-background="{{ asset('frontend/images/bg/abs-bg4.png')}}" data-overlay-dark="4">
-    <div class="section-content">
+    <div style="padding-bottom: 59px;" class="section-content">
       <div class="container">
-        <div class="row">
+        <div class="row fit-sol">
           <div class="col-md-12 col-lg-10 col-xl-6 wow fadeInUp" data-wow-delay="0ms" data-wow-duration="800ms">
             <h2 class="text-white mrb-30 mrb-sm-30">
                 Fit Out Solution
@@ -96,5 +112,6 @@
       </div>
     </div>
   </section>
+
 
   @endsection

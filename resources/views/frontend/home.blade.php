@@ -263,7 +263,7 @@
     <!-- Testimonials Section Start -->
     <section class="testimonial-style2-section pdt-105 pdb-110 bg-no-repeat bg-cover bg-pos-cb"
         data-background="{{ asset('frontend/images/bg/abs-bg7.png') }}">
-        <div class="section-title text-center wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+        <div style="margin-bottom: -35px" class="section-title text-center wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-xl-8">

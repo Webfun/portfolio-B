@@ -21,10 +21,10 @@
                         <div class="widget footer-widget">
                             <h5 class="widget-title text-white mrb-30">Useful Links</h5>
                             <ul class="footer-widget-list">
-                                <li><a href="service-architecture.html">Home</a></li>
-                                <li><a href="service-interior-work.html">Services</a></li>
-                                <li><a href="service-kitchen-design.html">Project</a></li>
-                                <li><a href="service-decoration-art.html">About Us</a></li>
+                                <li><a href="{{'/'}}">Home</a></li>
+                                <li><a href="{{'/services'}}">Services</a></li>
+                                <li><a href="{{'/project'}}">Project</a></li>
+                                <li><a href="{{'/about'}}">About Us</a></li>
                             </ul>
                         </div>
                     </div>
