@@ -26,7 +26,7 @@
     </section>
     <!-- Home Slider End -->
     <!-- Service Section Area Start -->
-    <section class="feature-work-section pdt-110 pdb-105">
+    <section style="padding: 125px 0px 0px 0px;" class="feature-work-section pdt-110 pdb-105">
         <div class="section-content">
             <div class="container">
                 <div class="row">
