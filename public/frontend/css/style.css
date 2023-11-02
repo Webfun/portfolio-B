@@ -1551,7 +1551,7 @@ div[class*='kursor'].kursor--1.kursor--down {
     -ms-flex-align: center;
     align-items: center;
     margin-left: auto;
-    
+
   }
 }
 .header-style-02 .main-menu .main-menu-inner .main-nav-menu > li {
@@ -9159,6 +9159,9 @@ select {
 
 .mrb-30 {
   margin-bottom: 30px;
+}
+.info-cont{
+  font-size: 29px;
 }
 
 .mrb-35 {
