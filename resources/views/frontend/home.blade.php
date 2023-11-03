@@ -11,7 +11,7 @@
                         <div class="col-xl-8 col-lg-12 col-md-12 content-column">
                             <div class="content-box">
                                 <h1 class="home-carousel-title">Transforming <span class="text-primary-color">Spaces,
-                                        Enriching</span> <span class="text-obj1">Lives</span></h1>
+                                        Enriching</span> <span class="text-obj1">Lives!</span></h1>
                                 <p class="home-carousel-text">We create places that inspire and genuinely enrich
                                     lives by giving spaces Life </p>
                                 <div class="btn-box">
@@ -26,7 +26,7 @@
     </section>
     <!-- Home Slider End -->
     <!-- Service Section Area Start -->
-    <section style="padding: 125px 0px 0px 0px;" class="feature-work-section pdt-110 pdb-105">
+    <section style="padding: 125px 0px 43px 0px;" class="feature-work-section pdt-110 pdb-105">
         <div class="section-content">
             <div class="container">
                 <div class="row">
@@ -138,6 +138,92 @@
             </div>
         </div>
     </section>
+    <section style="background: #b88e75;" class="why-choose-us-style2-section bg-secondary-color bg-no-repeat bg-cover bg-pos-cb pdt-110 pdb-lg-80">
+        <div class="section-content">
+            <div class="container">
+                <div style="align-items: center;" class="our-mission-row row mrb-110">
+                    <div class="col-md-12 col-lg-12 col-xl-6 wow fadeInUp" data-wow-delay="0ms" data-wow-duration="800ms"
+                        style="visibility: visible; animation-duration: 800ms; animation-delay: 0ms; animation-name: fadeInUp;">
+                        <h5 class="text-primary-color mrb-10"></h5>
+                        <h2 class="text-white mrb-30 o-mission-heading mrb-sm-30">
+                            <span style="color: white;" class="text-primary-color">Our Mission<br> </span>
+                        </h2>
+                        <p class="text-white mrb-40">Our mission is to transform, inspire, and motivate people through the
+                            use
+                            of advanced fit-out solutions in venues. By providing personalized designs
+                            and flawless execution, we aim to be the pinnacle of quality and go above
+                            and beyond for our clients. We aspire to design spaces that have a lasting
+                            influence and improve how people live, work, and interact with their surroundings. We are
+                            incessantly in search of excellence</p>
+                    </div>
+                    <div class="col-md-10 col-lg-10 col-xl-6 wow fadeInUp" data-wow-delay="100ms"
+                        data-wow-duration="800ms"
+                        style="visibility: visible; animation-duration: 800ms; animation-delay: 100ms; animation-name: fadeInUp;">
+                        <div class="twentytwenty-wrapper twentytwenty-horizontal">
+                            <div class="before-after-slider1 style2 twentytwenty-container" style="height: 397.5px;">
+                                <!-- The before image is first -->
+                                <img src="{{ asset('frontend/images/before-after/3.jpg')}}"
+                                    alt="img1" class="twentytwenty-before"
+                                    style="clip: rect(0px, 318px, 397.5px, 0px);">
+                                <!-- The after image is last -->
+                                <img src="{{ asset('frontend/images/before-after/4.jpg')}}"
+                                    alt="img1" class="twentytwenty-after"
+                                    style="clip: rect(0px, 636px, 397.5px, 318px);">
+                                <div class="twentytwenty-overlay">
+                                    <div class="twentytwenty-before-label" data-content="Before"></div>
+                                    <div class="twentytwenty-after-label" data-content="After"></div>
+                                </div>
+                                <div class="twentytwenty-handle" style="left: 318px;"><span
+                                        class="twentytwenty-left-arrow"></span><span
+                                        class="twentytwenty-right-arrow"></span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="align-items: center;" class="our-vision-row row mrb-110">
+                    <div class="col-md-10 col-lg-10 col-xl-6 wow fadeInUp" data-wow-delay="100ms"
+                        data-wow-duration="800ms"
+                        style="visibility: visible; animation-duration: 800ms; animation-delay: 100ms; animation-name: fadeInUp;">
+                        <div class="twentytwenty-wrapper twentytwenty-horizontal">
+                            <div class="before-after-slider1 style2 mrt-lg-60 twentytwenty-container"
+                                style="height: 397.5px;">
+                                <!-- The before image is first -->
+                                <img src="{{ asset('frontend/images/before-after/3.jpg')}}"
+                                    alt="img1" class="twentytwenty-before"
+                                    style="clip: rect(0px, 318px, 397.5px, 0px);">
+                                <!-- The after image is last -->
+                                <img src="{{ asset('frontend/images/before-after/4.jpg')}}"
+                                    alt="img1" class="twentytwenty-after"
+                                    style="clip: rect(0px, 636px, 397.5px, 318px);">
+                                <div class="twentytwenty-overlay">
+                                    <div class="twentytwenty-before-label" data-content="Before"></div>
+                                    <div class="twentytwenty-after-label" data-content="After"></div>
+                                </div>
+                                <div class="twentytwenty-handle" style="left: 318px;"><span
+                                        class="twentytwenty-left-arrow"></span><span
+                                        class="twentytwenty-right-arrow"></span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-12 col-xl-6 wow fadeInUp" data-wow-delay="0ms" data-wow-duration="800ms"
+                        style="visibility: visible; animation-duration: 800ms; animation-delay: 0ms; animation-name: fadeInUp;">
+                        <h5 class=" text-primary-color mrb-10"></h5>
+                        <h2 class="text-white o-mission-heading mrb-30 mrb-sm-30">
+                            <span style="color: white;" class="text-primary-color">Our Vision<br> </span>
+                        </h2>
+                        <p class="text-white mrb-40">To lead advancement in the field by redefining fit-out solutions with
+                            creativity and unmatched craftsmanship. We strive to establish new standards
+                            and design environments that astonish viewers and improve the quality of
+                            human interaction through our persistent dedication to innovation and
+                            client satisfaction.</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
     <!-- About Section End -->
     <!-- Offer Section Start -->
     <section class="bg-secondary-color bg-no-repeat bg-cover bg-pos-cb pdt-105"

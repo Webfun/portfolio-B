@@ -16,7 +16,7 @@
       </div>
     </div>
   </section>
-  <section class="about-section pdt-110 pdb-105 bg-no-repeat bg-cover bg-pos-cb"
+  <section style="padding-top: 110px;" class="about-section pdt-110 pdb-105 bg-no-repeat bg-cover bg-pos-cb"
         data-background="{{ asset('frontend/images/bg/abs-bg3.png') }}" data-overlay-light="4">
         <div class="container">
             <div class="row">
