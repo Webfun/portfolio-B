@@ -65,7 +65,7 @@
           </div>
           <div class="col-md-12 col-lg-10 col-xl-6 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="800ms">
             <div class="shine-effect">
-              <img style="margin-top: 31px;" class="img-full" src="{{ asset('frontend/images/about/divider-img1.jpg')}}" alt="" />
+              <img class="img-full" src="{{ asset('frontend/images/about/divider-img1.jpg')}}" alt="" />
             </div>
           </div>
         </div>
@@ -85,7 +85,7 @@
           </div>
           <div class="col-md-12 col-lg-10 col-xl-6 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="800ms">
             <div class="shine-effect">
-              <img style="margin-top: 64px;" class="img-full" src="{{ asset('frontend/images/about/divider-img1.jpg')}}" alt="" />
+              <img class="img-full" src="{{ asset('frontend/images/about/divider-img1.jpg')}}" alt="" />
             </div>
           </div>
         </div>

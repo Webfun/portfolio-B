@@ -347,24 +347,22 @@
     </section>
     <!-- why Choose Us Section End -->
     <!-- Testimonials Section Start -->
-    <section class="testimonial-style2-section pdt-105 pdb-110 bg-no-repeat bg-cover bg-pos-cb"
-        data-background="{{ asset('frontend/images/bg/abs-bg7.png') }}">
-        <div style="margin-bottom: -35px" class="section-title text-center wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-xl-8">
-                        <div class="title-box-center">
-                            <h5 class="sub-title-line-bottom text-primary-color mrb-10">Testimonials</h5>
-                            <h2 class="title">What Our <span class="text-primary-color">Client's</span> Say
-                                about us?</h2>
+    
+    <section class="bg-silver pdt-105 pdb-110 pdb-lg-70 bg-no-repeat bg-cover bg-pos-ct">
+        <div class="section-content">
+            <div class="section-title text-center wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-xl-8">
+                            <div class="title-box-center">
+                                <h5 class="sub-title-line-bottom text-primary-color mrb-10">Testimonials</h5>
+                                <h2 class="title">What Our <span class="text-primary-color">Client's</span> Say
+                                    about us?</h2>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <section class="bg-silver pdt-105 pdb-110 pdb-lg-70 bg-no-repeat bg-cover bg-pos-ct">
-        <div class="section-content">
             <div class="container">
                 <div class="row">
                     <div class="owl-carousel testmonial_3col testimonial-style1 mrb-lg-40">
