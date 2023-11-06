@@ -19,7 +19,7 @@
   <section style="padding-top: 110px;" class="about-section pdt-110 pdb-105 bg-no-repeat bg-cover bg-pos-cb"
         data-background="{{ asset('frontend/images/bg/abs-bg3.png') }}" data-overlay-light="4">
         <div class="container">
-            <div class="row">
+            <div class="row about-flex">
                 <div class="col-md-12 col-lg-8 col-xl-6 wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                     <div class="about-image-box-style1 about-side-line mrr-60 mrr-lg-0">
                         <figure class="about-image1 js-tilt d-none d-md-block d-lg-block d-xl-block">
@@ -69,7 +69,7 @@
         </div>
     </section>
 
-    <section style="background: #b88e75;" class="why-choose-us-style2-section bg-secondary-color bg-no-repeat bg-cover bg-pos-cb pdt-110 pdb-lg-80">
+    <section style="background: #b88e75;" class="why-choose-us-style2-section bg-secondary-color bg-no-repeat bg-cover bg-pos-cb pdt-110 pdb-lg-80 why-us">
         <div class="section-content">
             <div class="container">
                 <div style="align-items: center;" class="our-mission-row row mrb-110">
@@ -87,7 +87,7 @@
                             influence and improve how people live, work, and interact with their surroundings. We are
                             incessantly in search of excellence</p>
                     </div>
-                    <div class="col-md-10 col-lg-10 col-xl-6 wow fadeInUp" data-wow-delay="100ms"
+                    <div class="col-md-10 col-lg-10 col-xl-6 wow fadeInUp " data-wow-delay="100ms"
                         data-wow-duration="800ms"
                         style="visibility: visible; animation-duration: 800ms; animation-delay: 100ms; animation-name: fadeInUp;">
                         <div class="twentytwenty-wrapper twentytwenty-horizontal">
@@ -111,8 +111,8 @@
                         </div>
                     </div>
                 </div>
-                <div style="align-items: center;" class="our-vision-row row mrb-110">
-                    <div class="col-md-10 col-lg-10 col-xl-6 wow fadeInUp" data-wow-delay="100ms"
+                <div style="align-items: center;" class="our-vision-row row mrb-110 vision-mt">
+                    <div class="col-md-10 col-lg-10 col-xl-6 wow fadeInUp our-mission" data-wow-delay="100ms"
                         data-wow-duration="800ms"
                         style="visibility: visible; animation-duration: 800ms; animation-delay: 100ms; animation-name: fadeInUp;">
                         <div class="twentytwenty-wrapper twentytwenty-horizontal">

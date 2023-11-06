@@ -52,7 +52,7 @@
             </a>
             <div class="logo-box">
                 <a href="index-2.html" aria-label="logo image">
-                    <img src="images/logo-light.svg" width="165" height="72" alt="logo" />
+                    <img src="{{ asset('frontend/images/logo-light.svg')}}" width="165" height="72" alt="logo" />
                 </a>
             </div>
             <div class="mobile-nav-container"></div>

@@ -6,12 +6,12 @@
         <div class="home-carousel owl-theme owl-carousel">
             <div class="slide-item">
                 <div class="image-layer" data-background="{{ asset('frontend/images/bg/15.jpg') }}"></div>
-                <div class="auto-container">
+                <div class="auto-container main-container">
                     <div class="row clearfix">
                         <div class="col-xl-8 col-lg-12 col-md-12 content-column">
-                            <div class="content-box">
-                                <h1 class="home-carousel-title">Transforming <span class="text-primary-color">Spaces,
-                                        Enriching</span> <span class="text-obj1">Lives!</span></h1>
+                            <div class="content-box home-cont">
+                                <h1 class="home-carousel-title "><span class="main-title">Transforming</span> <span class="text-primary-color main-title">Spaces,
+                                        Enriching</span> <span class="text-obj1 main-title">Lives!</span></h1>
                                 <p class="home-carousel-text">We create places that inspire and genuinely enrich
                                     lives by giving spaces Life </p>
                                 <div class="btn-box">
@@ -26,7 +26,7 @@
     </section>
     <!-- Home Slider End -->
     <!-- Service Section Area Start -->
-    <section style="padding: 125px 0px 43px 0px;" class="feature-work-section pdt-110 pdb-105">
+    <section style="padding: 125px 0px 0px 0px;" class="feature-work-section pdt-110 pdb-105 service-area">
         <div class="section-content">
             <div class="container">
                 <div class="row">
@@ -86,10 +86,10 @@
     </section>
     <!-- Service Section Area End -->
     <!-- About Section Start -->
-    <section class="about-section pdt-110 pdb-105 bg-no-repeat bg-cover bg-pos-cb"
+    <section class="about-section pdt-110 pdb-105 bg-no-repeat bg-cover bg-pos-cb about-padding"
         data-background="{{ asset('frontend/images/bg/abs-bg3.png') }}" data-overlay-light="4">
         <div class="container">
-            <div class="row">
+            <div class="row about-flex">
                 <div class="col-md-12 col-lg-8 col-xl-6 wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                     <div class="about-image-box-style1 about-side-line mrr-60 mrr-lg-0">
                         <figure class="about-image1 js-tilt d-none d-md-block d-lg-block d-xl-block">
@@ -138,7 +138,7 @@
             </div>
         </div>
     </section>
-    <section style="background: #b88e75;" class="why-choose-us-style2-section bg-secondary-color bg-no-repeat bg-cover bg-pos-cb pdt-110 pdb-lg-80">
+    <section style="background: #b88e75;" class="why-choose-us-style2-section bg-secondary-color bg-no-repeat bg-cover bg-pos-cb pdt-110 pdb-lg-80 why-us">
         <div class="section-content">
             <div class="container">
                 <div style="align-items: center;" class="our-mission-row row mrb-110">
@@ -156,7 +156,7 @@
                             influence and improve how people live, work, and interact with their surroundings. We are
                             incessantly in search of excellence</p>
                     </div>
-                    <div class="col-md-10 col-lg-10 col-xl-6 wow fadeInUp" data-wow-delay="100ms"
+                    <div class="col-md-10 col-lg-10 col-xl-6 wow fadeInUp " data-wow-delay="100ms"
                         data-wow-duration="800ms"
                         style="visibility: visible; animation-duration: 800ms; animation-delay: 100ms; animation-name: fadeInUp;">
                         <div class="twentytwenty-wrapper twentytwenty-horizontal">
@@ -180,8 +180,8 @@
                         </div>
                     </div>
                 </div>
-                <div style="align-items: center;" class="our-vision-row row mrb-110">
-                    <div class="col-md-10 col-lg-10 col-xl-6 wow fadeInUp" data-wow-delay="100ms"
+                <div style="align-items: center;" class="our-vision-row row mrb-110 vision-mt">
+                    <div class="col-md-10 col-lg-10 col-xl-6 wow fadeInUp our-mission" data-wow-delay="100ms"
                         data-wow-duration="800ms"
                         style="visibility: visible; animation-duration: 800ms; animation-delay: 100ms; animation-name: fadeInUp;">
                         <div class="twentytwenty-wrapper twentytwenty-horizontal">
@@ -347,7 +347,7 @@
     </section>
     <!-- why Choose Us Section End -->
     <!-- Testimonials Section Start -->
-    
+
     <section class="bg-silver pdt-105 pdb-110 pdb-lg-70 bg-no-repeat bg-cover bg-pos-ct">
         <div class="section-content">
             <div class="section-title text-center wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">

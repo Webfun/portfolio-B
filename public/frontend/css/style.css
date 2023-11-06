@@ -10466,6 +10466,40 @@ select {
 .border-top-bottom {
   border-top: 1px solid #eee;
   border-bottom: 1px solid #eee;
+
 }
+@media only screen and (min-width: 200px) and (max-width: 700px) {
+.main-container{
+    padding: 0px 0px;
+}
+.home-cont{
+    display: inline!important;
+}
+.main-title{
+    font-size: 38px;
+}
+.our-mission{
+    margin-top: -55px;
+}
+.vision-mt{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.why-us{
+    padding-bottom: 0px!important;
+}
+.about-flex{
+    flex-direction: column-reverse;
+}
+.about-padding{
+    padding: 72px 0px;
+}
+.service-area{
+    padding-top: 100px!important;
+}
+}
+
+
+
 
 /*# sourceMappingURL=style.css.map */
