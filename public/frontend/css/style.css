@@ -10497,6 +10497,18 @@ select {
 .service-area{
     padding-top: 100px!important;
 }
+.responsive-home{
+    margin-left: 0px!important;
+}
+.hero-height{
+    min-height: 295px;
+}
+.nav-height{
+    height: 186px;
+}
+.hero-padding{
+    padding: 0px 0px 25px 0px!important;
+}
 }
 
 

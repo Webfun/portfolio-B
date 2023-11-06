@@ -4,7 +4,7 @@
 
 <section class="home_banner_02">
         <div class="home-carousel owl-theme owl-carousel">
-            <div class="slide-item">
+            <div class="slide-item hero-padding">
                 <div class="image-layer" data-background="{{ asset('frontend/images/bg/15.jpg') }}"></div>
                 <div class="auto-container main-container">
                     <div class="row clearfix">

@@ -1,7 +1,7 @@
 @extends('frontend.layouts.app')
 @section('title', 'Services')
 @section('page')
-<section class="page-title-section">
+<section class="page-title-section hero-height">
     <div class="container">
       <div class="row">
         <div class="col-xl-12">

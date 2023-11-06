@@ -55,7 +55,31 @@
                     <img src="{{ asset('frontend/images/logo-light.svg')}}" width="165" height="72" alt="logo" />
                 </a>
             </div>
-            <div class="mobile-nav-container"></div>
+                <div class="mobile-nav-container nav-height">
+                    <ul class="bar-nav mobile-menu-list responsive-home">
+                    <li>
+                        <a href="/">Home</a>
+
+                    </li>
+                    <li>
+                        <a href="/services">Services</a>
+
+                    </li>
+                    <li>
+                        <a href="/project">Projects</a>
+                    </li>
+                    <li>
+                        <a href="/about">About Us</a>
+
+                    </li>
+                    <li>
+                        <a href="/contact"> Contact US</a>
+
+                    </li>
+
+                </ul>
+            </div>
+
             <ul class="list-items mobile-sidebar-contact">
                 <li><span class="fa fa-map-marker-alt mrr-10 text-primary-color"></span>121 King Street, Australia</li>
                 <li><span class="fas fa-envelope mrr-10 text-primary-color"></span><a
