@@ -154,6 +154,101 @@
         </div>
     </section>
 
+    <section style="padding-bottom: 100px;"
+    class="why-choose-us-style2-section bg-white bg-no-repeat bg-cover bg-pos-cb pdt-110 pdb-lg-80"
+    data-background="https://alyasmeenkw.com/user-assets/images/bg/16.jpg" data-overlay-light="98"
+    style="background-image: url(&quot;images/bg/16.jpg&quot;);">
+
+    <div class="section-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12  col-lg-12 col-xl-12 wow fadeInUp" data-wow-delay="0ms"
+                    data-wow-duration="800ms"
+                    style="visibility: visible; animation-duration: 800ms; animation-delay: 0ms; animation-name: fadeInUp;">
+                    <h5 style="padding-left: 1px" class=" text-center text-primary-color mrb-10"></h5>
+                    <div class="col-xl-12 text-center col-lg-12 col-md-12">
+
+                        <h2 class="mrb-45">Our <span class="text-primary-color">Values</span></h2>
+
+                    </div>
+                    <p class="text-dark text-center mrb-45"> The heart of our business activities lies in its interior
+                        fit-out division, demonstrating our commitment to effective communication with both customers
+                        and colleagues</p>
+                    <div class="row justify-content-center text-center">
+                        <div class="col-xl-3 col-lg-4 col-md-6">
+                            <div class="icon-box-style1 mrb-md-40">
+                                <div style="margin-bottom: 1px!important;" class="featured-icon">
+                                    <img src="https://alyasmeenkw.com/user-assets/images/service/excellence.svg"
+                                        alt="">
+                                </div>
+                                <div class="icon-box-content">
+                                    <h4 class="text-dark icon-box-title">Excellence </h4>
+                                    <p class="icon-box-desc">Committed to excellence from concept to execution, we
+                                        maintain the highest standards with meticulous attention.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6">
+                            <div class="icon-box-style1 mrb-md-40">
+                                <div style="margin-bottom: 1px!important;" class="featured-icon">
+                                    <img src="https://alyasmeenkw.com/user-assets/images/service/innovation.svg"
+                                        alt="">
+                                </div>
+                                <div class="icon-box-content">
+                                    <h4 class="text-dark icon-box-title">Innovation </h4>
+                                    <p class="icon-box-desc">We relentlessly pursue innovation, pushing boundaries to
+                                        create uniquely inspiring spaces.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6">
+                            <div class="icon-box-style1">
+                                <div style="margin-bottom: 1px!important;" class="featured-icon">
+                                    <img src="https://alyasmeenkw.com/user-assets/images/service/customer-centric.svg"
+                                        alt="">
+                                </div>
+                                <div class="icon-box-content">
+                                    <h4 class=" text-dark icon-box-title">Customer-Centric</h4>
+                                    <p class="icon-box-desc">We attentively listen and collaborate, tailoring fit-out
+                                        solutions to meet your aspirations.Quickly productivate time strategic mirina
+                                        magna</p>
+                                </div>
+                            </div>
+                        </div>
+                        &nbsp;
+                        <div style="margin-top: 30px" class="col-xl-3 col-lg-4 col-md-6">
+                            <div class="icon-box-style1">
+                                <div style="margin-bottom: 1px!important;" class="featured-icon">
+                                    <img src="https://alyasmeenkw.com/user-assets/images/service/integrity.svg"
+                                        alt="">
+                                </div>
+                                <div class="icon-box-content">
+                                    <h4 class="text-dark icon-box-title">Integrity </h4>
+                                    <p class="icon-box-desc">Our bedrock is trust and integrity, fostering enduring
+                                        relationships through ethical, transparent, and honest interactions.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="margin-top: 30px" class="col-xl-3  col-lg-4 col-md-6">
+                            <div class="icon-box-style1">
+                                <div style="margin-bottom: 1px!important;" class="featured-icon">
+                                    <img src="https://alyasmeenkw.com/user-assets/images/service/passion.svg" alt="">
+                                </div>
+                                <div class="icon-box-content">
+                                    <h4 class="text-dark icon-box-title">Passion </h4>
+                                    <p class="icon-box-desc">Driven by our passion, we tackle each project with zeal
+                                        and commitment, crafting exceptional spaces that enhance lives.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
     <section class="bg-silver pdt-105 pdb-110 pdb-lg-70 bg-no-repeat bg-cover bg-pos-ct">
         <div class="section-content">
             <div class="section-title text-center wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">

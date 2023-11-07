@@ -10518,6 +10518,12 @@ select {
 .our-works{
     margin-bottom: 12px;
 }
+.services-text{
+    text-align: justify;
+}
+.services-font-size{
+    font-size: 29px;
+}
 }
 
 
