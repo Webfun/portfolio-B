@@ -17,7 +17,8 @@
 
                         </div>
                     </div>
-                    <div class="col-xl-2 col-lg-6">
+                   <div class="foot">
+                     <div class="col-xl-2 col-lg-6">
                         <div class="widget footer-widget">
                             <h5 class="widget-title text-white mrb-30">Useful Links</h5>
                             <ul class="footer-widget-list">
@@ -45,6 +46,7 @@
                             </address>
                         </div>
                     </div>
+                   </div>
                     <div class="col-xl-3 col-lg-6">
                         <div class="widget footer-widget mrr-60 mrr-md-0">
                             <h5 class="widget-title text-white mrb-30">Social Links</h5>

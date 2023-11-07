@@ -32,7 +32,7 @@
                 <div class="row">
                     <div class="col-xl-3 col-lg-6 col-md-6">
                         <h5 class="side-line-left text-primary-color mrb-10">Our Works</h5>
-                        <h2 class="mrb-45">Our Feature <span class="text-primary-color">Works</span></h2>
+                        <h2 class="mrb-45 our-works">Our Feature <span class="text-primary-color">Works</span></h2>
                         <a href="page-services-style-01.html" class="animate-btn-style2 mrb-sm-60">All Services</a>
                     </div>
                     <div class="col-xl-3 col-lg-6 col-md-6">

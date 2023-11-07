@@ -188,6 +188,11 @@
 /*========================================*/
 /*--------------- [_Utility] -------------*/
 /*========================================*/
+html{
+    overflow-x: hidden;
+}
+
+
 body {
   color: var(--body-font-color);
   font-family: var(--body-font);
@@ -10501,13 +10506,17 @@ select {
     margin-left: 0px!important;
 }
 .hero-height{
-    min-height: 295px;
+    padding: 40px 0;
+    min-height: 0px;
 }
 .nav-height{
     height: 186px;
 }
 .hero-padding{
     padding: 0px 0px 25px 0px!important;
+}
+.our-works{
+    margin-bottom: 12px;
 }
 }
 
