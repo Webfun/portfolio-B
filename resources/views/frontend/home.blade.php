@@ -111,8 +111,8 @@
                         creativity with utility.</p>
 
                     <div class="row no-gutters">
-                        <div class="col-xl-7 col-lg-7 col-md-6 col-sm-6 cons-2">
-                            <div class="featured-icon-box mrb-15">
+                        <div class="col-xl-12 col-lg-7 col-md-6 col-sm-6 cons-2 about-gutter about-response">
+                            <div style="flex-direction: column" class="featured-icon-box mrb-15">
                                 <div class="featured-icon">
                                     <i class="webexflaticon webextheme-icon-003-staircase"></i>
                                 </div>
@@ -122,7 +122,7 @@
                                         creating extraordinary works of art.</p>
                                 </div>
                             </div>
-                            <div class="featured-icon-box mrb-sm-40">
+                            <div style="flex-direction: column" class="featured-icon-box mrb-sm-40">
                                 <div class="featured-icon">
                                     <i class="webexflaticon base-icon-158-employee-2"></i>
                                 </div>

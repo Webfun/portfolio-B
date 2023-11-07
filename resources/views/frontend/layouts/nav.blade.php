@@ -54,21 +54,19 @@
                         </a>
                     </div>
                     <ul class="main-nav-menu bar-nav ">
-                        <li>
-                            <a href="{{ '/' }}">Home</a>
+                        <li class="{{ URL::current() == url('/') ? 'active' : '' }}">
+                            <a href="{{ route('frontend.home') }}">Home</a>
+                        </li>
+                        <li class="{{ URL::current() == url('/services') ? 'active' : '' }}">
+                            <a href="{{ route('frontend.services') }}">Services</a>
+                        </li>
+                        <li class="{{ URL::current() == url('/project') ? 'active' : '' }} ">
+                            <a href="{{ route('frontend.project') }}">Projects</a>
+                        </li>
+                        <li class="{{ URL::current() == url('/about') ? 'active' : '' }} ">
+                            <a href="{{ route('frontend.about') }}">About us</a>
+                        </li>
 
-                        </li>
-                        <li>
-                            <a href="{{ '/services' }}">Services</a>
-
-                        </li>
-                        <li>
-                            <a href="{{ '/project' }}">Projects</a>
-                        </li>
-                        <li>
-                            <a href="{{ '/about' }}">About Us</a>
-
-                        </li>
 
                     </ul>
                     <div class="main-menu-right">
@@ -79,7 +77,7 @@
                         </a>
 
                         <div class="header-contact-btn">
-                            <a href="{{ '/contact' }}" class="cs-btn-one btn-circle">Contact Us</a>
+                            <a href="{{ route('frontend.contact') }}" class="cs-btn-one btn-circle">Contact Us</a>
                         </div>
                     </div>
                 </div>
