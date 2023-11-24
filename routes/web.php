@@ -5,6 +5,8 @@ use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\frontend\PageController;
 
+use App\Http\Controllers\admin\DashboardController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -26,9 +28,21 @@ Route::name('frontend.')->group(function () {
 
 
 
-Route::get('/dashboard', function () {
-    return view('dashboard');
-})->middleware(['auth', 'verified'])->name('dashboard');
+Route::redirect("/admin", "/login");
+
+Route::group(['prefix' => 'admin'], function () {
+    Route::name('admin.')->group(function () {
+
+        Route::group(['middleware' => 'admin.auth'], function () {
+            // Route::get('/', [DashboardController::class, 'index'])->name('index');
+            Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
+
+
+        });
+    });
+});
+
+
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
@@ -36,4 +50,6 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
-require __DIR__.'/auth.php';
+
+
+require __DIR__ . '/auth.php';

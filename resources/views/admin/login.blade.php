@@ -270,14 +270,14 @@
     <!-- ===============================================-->
     <!--    JavaScripts-->
     <!-- ===============================================-->
-    <script src="vendors/popper/popper.min.js"></script>
-    <script src="vendors/bootstrap/bootstrap.min.js"></script>
-    <script src="vendors/anchorjs/anchor.min.js"></script>
-    <script src="vendors/is/is.min.js"></script>
-    <script src="vendors/fontawesome/all.min.js"></script>
-    <script src="vendors/lodash/lodash.min.js"></script>
+    <script src="{{ asset('admin-assets/vendors/popper/popper.min.js') }}"></script>
+    <script src="{{ asset('admin-assets/vendors/bootstrap/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('admin-assets/vendors/anchorjs/anchor.min.js') }}"></script>
+    <script src="{{ asset('admin-assets/vendors/is/is.min.js') }}"></script>
+    <script src="{{ asset('admin-assets/vendors/fontawesome/all.min.js') }}"></script>
+    <script src="{{ asset('admin-assets/vendors/lodash/lodash.min.js') }}"></script>
     <script src="{{ asset('admin-assets/js/polyfill.min.js?features=window.scroll') }}"></script>
-    <script src="vendors/list.js/list.min.js"></script>
+    <script src="{{ asset('admin-assets/vendors/list.js/list.min.js') }}"></script>
     <script src="{{ asset('admin-assets/js/theme.js') }}"></script>
 </body>
 
