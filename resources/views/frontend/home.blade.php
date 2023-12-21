@@ -460,59 +460,21 @@
             </div>
             <div class="container">
                 <div class="row">
-                    <div class="owl-carousel testmonial_3col testimonial-style1 mrb-lg-40">
-                        <div class="testimonial-item">
-                            <div class="testimonial-thumb">
-                                <img src="{{ asset('frontend/images/testimonials/testimonial-img1.jpg') }}"
-                                    alt="" />
+                    <div class="owl-carousel testmonial_3col testimonial-style2 text-left">
+                        @foreach ($testimonials as $tt)
+                            <div style="    background: #def2ff;" class="testimonial-item">
+                                <div class="testimonial-thumb">
+                                    <img src="/testiimages/{{ $tt->custimg }}" style="height: 50px!important"
+                                        alt="" />
+                                </div>
+                                <div class="testimonial-content">
+                                    <p class="comments"> {{ $tt->custreview }}</p>
+                                    <h4 class="client-name">{{ $tt->custname }}</h4>
+                                    <h6 class="client-designation">{{ $tt->custdesignation }}, {{ $tt->custcompany }}
+                                    </h6>
+                                </div>
                             </div>
-                            <div class="testimonial-content">
-                                <p class="comments">Lorem ipsum dolor sit amet, consectetur adipisicing
-                                    elit oluptatibus blanditiis amet optio fugiat nisi est repellendus iusto
-                                    quis harum laboriosam nostrum unde distinctio</p>
-                                <h4 class="client-name">Aurther Maxwell</h4>
-                                <h6 class="client-designation">CEO, Apple Inc.</h6>
-                            </div>
-                        </div>
-                        <div class="testimonial-item">
-                            <div class="testimonial-thumb">
-                                <img src="{{ asset('frontend/images/testimonials/testimonial-img3.jpg') }}"
-                                    alt="" />
-                            </div>
-                            <div class="testimonial-content">
-                                <p class="comments">Lorem ipsum dolor sit amet, consectetur adipisicing
-                                    elit oluptatibus blanditiis amet optio fugiat nisi est repellendus iusto
-                                    quis harum laboriosam nostrum unde distinctio</p>
-                                <h4 class="client-name">Aurther Maxwell</h4>
-                                <h6 class="client-designation">CEO, Apple Inc.</h6>
-                            </div>
-                        </div>
-                        <div class="testimonial-item">
-                            <div class="testimonial-thumb">
-                                <img src="{{ asset('frontend/images/testimonials/testimonial-img2.jpg') }}"
-                                    alt="" />
-                            </div>
-                            <div class="testimonial-content">
-                                <p class="comments">Lorem ipsum dolor sit amet, consectetur adipisicing
-                                    elit oluptatibus blanditiis amet optio fugiat nisi est repellendus iusto
-                                    quis harum laboriosam nostrum unde distinctio</p>
-                                <h4 class="client-name">Aurther Maxwell</h4>
-                                <h6 class="client-designation">CEO, Apple Inc.</h6>
-                            </div>
-                        </div>
-                        <div class="testimonial-item">
-                            <div class="testimonial-thumb">
-                                <img src="{{ asset('frontend/images/testimonials/testimonial-img1.jpg') }}"
-                                    alt="" />
-                            </div>
-                            <div class="testimonial-content">
-                                <p class="comments">Lorem ipsum dolor sit amet, consectetur adipisicing
-                                    elit oluptatibus blanditiis amet optio fugiat nisi est repellendus iusto
-                                    quis harum laboriosam nostrum unde distinctio</p>
-                                <h4 class="client-name">Aurther Maxwell</h4>
-                                <h6 class="client-designation">CEO, Apple Inc.</h6>
-                            </div>
-                        </div>
+                        @endforeach
                     </div>
                 </div>
             </div>

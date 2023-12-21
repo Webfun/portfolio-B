@@ -965,11 +965,18 @@
                 <div class="col ps-0">
                   <hr class="mb-0 navbar-vertical-divider">
                 </div>
-              </div><!-- parent pages--> <!-- parent pages--><a class="nav-link" href="../app/chat.html" role="button">
+              </div><!-- parent pages--> <!-- parent pages-->
+              <a class="nav-link" href="{{ route('admin.testimonial.index') }}" role="button">
                 <div class="d-flex align-items-center"><span class="nav-link-icon"><span
-                      class="fas fa-comments"></span></span><span class="nav-link-text ps-1">Testimonial</span></div>
+                      class="fas fa-comments"></span></span><span class="nav-link-text ps-1">Testimonial</span>
+                </div>
               </a>
-            </li> 
+              <a class="nav-link" href="{{ route('admin.project.index') }}" role="button">
+                <div class="d-flex align-items-center"><span class="nav-link-icon"><span
+                      class="fas fa-comments"></span></span><span class="nav-link-text ps-1">All Projects</span>
+                </div>
+              </a>
+            </li>
           </ul>
           <div class="settings mb-3">
             <div class="card shadow-none">
